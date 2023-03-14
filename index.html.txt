@@ -123,6 +123,7 @@
         <button class="button newsletter-button" type="submit">
           <span class="visually-hidden">Подписаться</span>
         </button>
+      </div>
       </form>
     </section>
     </main>
