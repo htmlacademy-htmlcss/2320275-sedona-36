@@ -58,28 +58,23 @@
       <ul class="reasons-list">
        <li class="reasons-item">
         <h3 class="reasons-title">Настоящий городок</h3>
-        <b>________</b>
         <p class="reasons-description">Седона - не аттракцион для туристов, там течёт своя жизнь</p>
         img class="reasons-vision" src="#" alt="Веранда">
        </li>
        <li class="reasons-item">
         <h3 class="reasons-title">Небольшая площадь</h3>
-        <b>________</b>
         <p class="reasons-description">Все достопримечательности находятся очень близко</p>
        <li>
        <li class="reasons-item">
         <h3 class="reasons-title">Красивая дорога</h3>
-        <b>________</b>
         <p class="reasons-description">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
        </li>
        <li class="reasons-item">
         <h3 class="reasons-title">Мало туристов</h3>
-        <b>________</b>
         <p class="reasons-description">Большинство едет в Гранд Каньон и толпится там</p>
        </li>
        <li class="reasons-item">
         <h3 class="reasons-title">Там есть мост дьявола</h3>
-        <b>________</b>
         <p class="reasons-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
         img class="reasons-vision" src="#" alt="Мост дьявола">
        </li>
