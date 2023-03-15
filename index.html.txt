@@ -9,13 +9,15 @@
  <nav class="navigation">
     <ul class="navigation-list">
       <li class="navigation-item">
-      <a class="navigation-link" href="about.html">Главная</a>
+      <h1 class="visually-hidden">"Города Седоны"</h1>
+      <img class="logo" src="#" alt="Логотип "Седоны">
+      <a class="navigation-link" href="#">Главная</a>
       </li>
        <li class="navigation-item">
-      <a class="navigation-link" href="about.html">О Седоне</a>
+      <a class="navigation-link" href="#">О Седоне</a>
       </li>
        <li class="navigation-item">
-      <a class="navigation-link" href="about.html">Гостиницы</a>
+      <a class="navigation-link" href="#">Гостиницы</a>
       </li>
       </ul>
       <ul class="navigation-list navigation-user">
@@ -44,10 +46,10 @@
     <main class="main-index">
       <h1 class="visually-hidden">Седона</h1>
       <img class="preview" src="#" alt="Добро пожаловать!">
-      <h2 class="annotation">Седона - небольшой городок в Аризоне, заслуживающий большего!>
+      <h2 class="annotation">Седона - небольшой городок в Аризоне, заслуживающий большего!</h2>
       <p class="better">Рассмторим причины, по которым Седона лучше, чем Гранд-Каньон!</p>
 
-      <section class="reasons">
+    <section class="reasons">
       <h2 class="visually-hidden">Причины</h2>
       <ul class="reasons-list">
        <li class="reasons-item">
@@ -72,8 +74,7 @@
         <p class="reasons-description">Большинство едет в Гранд Каньон и толпится там</p>
        </li>
        <li class="reasons-item">
-
-<h3 class="reasons-title">Там есть мост дьявола</h3>
+        <h3 class="reasons-title">Там есть мост дьявола</h3>
         <b>________</b>
         <p class="reasons-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
         img class="reasons-vision" src="#" alt="Мост дьявола">
@@ -123,9 +124,9 @@
         <button class="button newsletter-button" type="submit">
           <span class="visually-hidden">Подписаться</span>
         </button>
-      </div>
       </form>
     </section>
+    </div>
     </main>
 
     <footer class="page-footer">
@@ -152,5 +153,3 @@
   </footer>
     </body>
 </html>
-
-
