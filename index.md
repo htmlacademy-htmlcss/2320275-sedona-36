@@ -4,13 +4,14 @@
     <meta charset="utf-8">
     <title>Седона</title>
   </head>
-  <body>Главная Страница</body>
+  <body>
 <header class="page-header">
-<img class="logo" src="#" alt="Логотип Седоны">
  <nav class="navigation">
+ <img class="logo" src="#" alt="Логотип Седоны">
     <ul class="navigation-list">
-      <li class="navigation-item">
+    <li class="navigation-item">
       <h1 class="visually-hidden">"Города Седоны"</h1>
+      <li class="navigation-item">
       <a class="navigation-link" href="#">Главная</a>
       </li>
        <li class="navigation-item">
@@ -64,7 +65,7 @@
        <li class="reasons-item">
         <h3 class="reasons-title">Небольшая площадь</h3>
         <p class="reasons-description">Все достопримечательности находятся очень близко</p>
-       <li>
+       </li>
        <li class="reasons-item">
         <h3 class="reasons-title">Красивая дорога</h3>
         <p class="reasons-description">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
@@ -98,13 +99,13 @@
         <h3 class="servises-title">Еда</h3>
         <p class="servises-description">Всегда заказывайте
 топовый фирменный бургер, вы не разочаруетесь!</p>
-        img class="servise-icon" src="#" alt="Бургер">
+        <img class="servise-icon" src="#" alt="Бургер">
         </li>
         <li class="servises-item">
         <h3 class="servises-title">Сувениры</h3>
         <p class="servises-description">Не только китайского, 
 но и настоящего местного производства!</p>
-        img class="servise-icon" src="#" alt="Подарок">
+        <img class="servise-icon" src="#" alt="Подарок">
       </li>
       </ul>
     </section>
@@ -119,17 +120,16 @@
     <div class="subscribe">
         <h2 class="subscribe-mailing">Подпишитесь на рассылку</h2>
       <p class="usefull-info">Только полезная информация и никакого спама, честное бойскаутское!</p>
+      </div>
        <section class="newsletter">
       <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
       <div class="form-input">
         <label for="newsletter-email">Email</label>
         <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required>
+      </div>
         <button class="button newsletter-button" type="submit">Подписаться</button>
-</div>
-        </button>
       </form>
     </section>
-    </div>
     </main>
 
     <footer class="page-footer">
@@ -152,7 +152,6 @@
       </ul>
       <a class="phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
       <p class="about-text">Сделано в <a class="htmlacademy-link" href="https://htmlacademy.ru/">.html academy</a></p>
-    </section>
   </footer>
     </body>
 </html>
