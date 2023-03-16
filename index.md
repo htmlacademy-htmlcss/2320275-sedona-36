@@ -6,11 +6,11 @@
   </head>
   <body>Главная Страница</body>
 <header class="page-header">
+<img class="logo" src="#" alt="Логотип Седоны">
  <nav class="navigation">
     <ul class="navigation-list">
       <li class="navigation-item">
       <h1 class="visually-hidden">"Города Седоны"</h1>
-      <img class="logo" src="#" alt="Логотип Седоны">
       <a class="navigation-link" href="#">Главная</a>
       </li>
        <li class="navigation-item">
@@ -59,7 +59,7 @@
        <li class="reasons-item">
         <h3 class="reasons-title">Настоящий городок</h3>
         <p class="reasons-description">Седона - не аттракцион для туристов, там течёт своя жизнь</p>
-        img class="reasons-vision" src="#" alt="Веранда">
+        <img class="reasons-vision" src="#" alt="Веранда">
        </li>
        <li class="reasons-item">
         <h3 class="reasons-title">Небольшая площадь</h3>
@@ -76,12 +76,14 @@
        <li class="reasons-item">
         <h3 class="reasons-title">Там есть мост дьявола</h3>
         <p class="reasons-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
-        img class="reasons-vision" src="#" alt="Мост дьявола">
+        <img class="reasons-vision" src="#" alt="Мост дьявола">
        </li>
       </ul>
     </section>
+    <section class="welcome">
      <h2 class="annotation">Приезжайте в Седону отдохнуть в комфорте и уюте!</h2>
       <p class="better">Опытный персонал и качественное обслуживание!</p>
+      </section>
 
     <section class="servises">
      <h2 class="visually-hidden">Услуги</h2>
@@ -90,7 +92,7 @@
         <h3 class="servises-title">Жильё</h3>
         <p class="servises-description">Рекомендуем пожитьв настоящем мотеле, 
 всё как в кино!</p>
-        img class="servise-icon" src="#" alt="Домик">
+        <img class="servise-icon" src="#" alt="Домик">
        </li>
        <li class="servises-item">
         <h3 class="servises-title">Еда</h3>
@@ -119,10 +121,11 @@
       <p class="usefull-info">Только полезная информация и никакого спама, честное бойскаутское!</p>
        <section class="newsletter">
       <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
+      <div class="form-input">
         <label for="newsletter-email">Email</label>
         <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required>
-        <button class="button newsletter-button" type="submit">
-          <span class="visually-hidden">Подписаться</span>
+        <button class="button newsletter-button" type="submit">Подписаться</button>
+</div>
         </button>
       </form>
     </section>
