@@ -150,7 +150,7 @@
           </a>
         </li>
       </ul>
-      <h2 class="phone-for-link">+7(812)812-12-12</h2>
+      <a class="phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
       <p class="about-text">Сделано в <a class="htmlacademy-link" href="https://htmlacademy.ru/">.html academy</a></p>
     </section>
   </footer>
