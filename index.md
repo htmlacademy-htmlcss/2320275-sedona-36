@@ -122,7 +122,6 @@
       <p class="usefull-info">Только полезная информация и никакого спама, честное бойскаутское!</p>
       </div>
        <section class="newsletter">
-        <h2 class="visually-hidden">Рассылка</h2>
       <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
       <div class="form-input">
         <label for="newsletter-email">Email</label>
