@@ -7,7 +7,7 @@
   <body>
 <header class="page-header">
  <nav class="navigation">
- <img class="logo" src="#" alt="Логотип Седоны">
+ <img class="logo" src="images/brand-sedona.jpg" width="140" height="70" alt="Логотип Седоны">
     <ul class="navigation-list">
     <li class="navigation-item">
       <h1 class="visually-hidden">"Города Седоны"</h1>
@@ -91,7 +91,7 @@
       <ul class="servises-list">
        <li class="servises-item">
         <h3 class="servises-title">Жильё</h3>
-        <p class="servises-description">Рекомендуем пожитьв настоящем мотеле, 
+        <p class="servises-description">Рекомендуем пожитьв настоящем мотеле,
 всё как в кино!</p>
         <img class="servise-icon" src="#" alt="Домик">
        </li>
@@ -103,7 +103,7 @@
         </li>
         <li class="servises-item">
         <h3 class="servises-title">Сувениры</h3>
-        <p class="servises-description">Не только китайского, 
+        <p class="servises-description">Не только китайского,
 но и настоящего местного производства!</p>
         <img class="servise-icon" src="#" alt="Подарок">
       </li>
