@@ -24,7 +24,7 @@
       <ul class="navigation-list navigation-user">
           <li class="navigation-item">
             <a class="navigation-link" href="#">
-              <img src="images/search.svg" alt="Лупа" width="20" height="20">
+              <img class="navigation-icon" src="images/search.svg" alt="Лупа" width="20" height="20">
               <span class="visually-hidden">
                 Поиск
               </span>
@@ -32,7 +32,7 @@
           </li>
           <li class="navigation-item">
             <a class="navigation-link" href="#">
-              <img src="images/sweet.svg" alt="Сердечко" width="18" height="17">
+              <img class="navigation-icon" src="images/sweet.svg" alt="Сердечко" width="18" height="17">
               <span class="visually-hidden">
                 Избранное
               </span>
@@ -51,12 +51,12 @@
     <main class="main-index">
     <section class="welcome">
       <h1 class="visually-hidden">Седона</h1>
-      <img class="main-welcome" src="images/kanyon-panorama.jpg" alt="Главная панорама" width="1200" height="485"
-      <img src="images/Welcome.svg" alt="Добро пожаловать!" width="187.7" height="44.7">
-      <img src="images/citate.png" alt="Лозунг" width="256" height="28.78"
-      <img src="images/grandko.svg" alt="Лучше-Гранда" width="456.7" height="212.77"
+      <img class="main-welcome" src="images/kanyon-panorama.jpg" alt="Главная панорама" width="1200" height="485">
+      <img class="welcome-writting" src="images/Welcome.svg" alt="Добро пожаловать!" width="188" height="45">
+      <img class="welcome-writting" src="images/citate.svg" alt="Лозунг" width="256" height="29">
+      <img class="welcome-writting" src="images/grandko.svg" alt="Лучше-Гранда" width="457" height="213">
       <h2 class="annotation">Седона - небольшой городок в Аризоне, заслуживающий большего!</h2>
-      <p class="better">Рассмторим причины, по которым Седона лучше, чем Гранд-Каньон!</p>
+      <p class="better">Рассмотрим причины, по которым Седона лучше, чем Гранд-Каньон!</p>
       </section>
 
     <section class="reasons">
@@ -127,6 +127,7 @@
       <p class="usefull-info">Только полезная информация и никакого спама, честное бойскаутское!</p>
       </div>
        <section class="newsletter">
+        <h2 class="visually-hidden">Рассылка</h2>
       <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
       <div class="form-input">
         <label for="newsletter-email">Email</label>
@@ -134,32 +135,35 @@
       </div>
         <button class="button newsletter-button" type="submit">Подписаться</button>
       </form>
-    </section>
+       </section>
     </main>
 
     <footer class="page-footer">
     <ul class="footer-social-list">
         <li class="footer-social-item">
           <a class="button" href="#">
-            <img src="images/vkontakt-icon.svg" alt="вконтакте" width="24" height="14">
+            <img class="social-icon" src="images/vkontakt-icon.svg" alt="вконтакте" width="24" height="14">
             <span class="visually-hidden">В контакте</span>
           </a>
         </li>
         <li class="footer-social-item">
           <a class="button" href="#">
-            <img src="images/telegram-icon.svg" alt="Телега" width="18" height="15.1">
+            <img class="social-icon" src="images/telegram-icon.svg" alt="Телега" width="18" height="15">
             <span class="visually-hidden">Телеграм</span>
           </a>
         </li>
         <li class="footer-social-item">
           <a class="button" href="#">
-            <img src="images/youtube-icon.svg" alt="Ютаб" width="22" height="17">
+            <img class="social-icon" src="images/youtube-icon.svg" alt="Ютаб" width="22" height="17">
             <span class="visually-hidden">Ютуб</span>
           </a>
         </li>
       </ul>
       <a class="phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
-      <p class="about-text">Сделано в <a class="htmlacademy-link" href="https://htmlacademy.ru/">.html academy</a></p>
+      <p class="about-text">Сделано в <a class="htmlacademy-link" href="https://htmlacademy.ru/">.html academy
+        <img class="htmlacademy-logo" src="images/Academy-logo.svg" alt="Логотип Академии" width="115" height="33">
+      </a>
+    </p>
   </footer>
     </body>
 </html>
